@@ -1,0 +1,19 @@
+@use './brewery.scss';
+@use './onlybrewery.scss';
+
+$primary-color: rgb(195, 219, 240);
+
+h1, h4 {
+ text-align: center;
+ font-size: 16px;
+}
+
+body {
+ background-color: $primary-color
+}
+
+label {
+display: flex;
+justify-content: center;
+margin: 10px 0;
+}
